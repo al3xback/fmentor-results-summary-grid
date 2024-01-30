@@ -23,6 +23,7 @@
 }
 
 .card__result {
+	grid-template-rows: min-content min-content min-content;
 	justify-items: center;
 	gap: func.em(24);
 	padding: func.em(30) func.em(40) func.em(40);
