@@ -81,7 +81,7 @@
 }
 
 .card__data-item {
-	grid-template-columns: fit-content(1.25em) auto max-content;
+	grid-template-columns: auto 1fr max-content;
 	align-items: center;
 	gap: func.em(12);
 	padding: func.em(16);
